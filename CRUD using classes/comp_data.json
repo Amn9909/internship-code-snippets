@@ -1,0 +1,54 @@
+{
+    "companyName": "AYS",
+    "companyTtype": "Service Based",
+    "employees": [
+        {
+            "eId": 101,
+            "eName": "Parag",
+            "eEmail": "parag.vaidya@ayssoftwaresolution.com",
+            "eDesignation": "DevOps Head",
+            "eSalary": 300000
+        },
+        {
+            "id": 110,
+            "name": "aman",
+            "email": "aman.com",
+            "designation": "intern",
+            "salery": 10000
+        },
+        {
+            "id": 110,
+            "name": "aman",
+            "email": "aman.com",
+            "designation": "intern",
+            "salery": 10000
+        },
+        {
+            "id": 110,
+            "name": "aman",
+            "email": "aman.com",
+            "designation": "intern",
+            "salery": 10000
+        }
+    ],
+    "projects": [
+        {
+            "pId": 11,
+            "pName": "Webapp",
+            "asssignedEmployees": [
+                102,
+                103,
+                104
+            ]
+        },
+        {
+            "pId": 12,
+            "pName": "Health-care Blokchian",
+            "asssignedEmployees": [
+                101,
+                103,
+                105
+            ]
+        }
+    ]
+}

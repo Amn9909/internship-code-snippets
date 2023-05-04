@@ -1,0 +1,92 @@
+const a = require('./myt.json')
+const fs = require('fs')
+
+
+
+class Company
+{
+    constructor(c_name)
+    {
+        this.c_name = c_name;
+    }
+    change_c_name(n_name)
+    {
+        if(a.companyName != n_name)
+        {
+            a.companyName = n_name;
+        }
+    }
+}
+
+class Employee
+{
+    add_n_emp(obj)
+    {
+        a.employees.push(obj);
+    }
+    delete_emp()
+    {
+
+    }
+
+    add_at_pos(obj, pos)
+    {
+        for(let i=a.employees.length-1; i>=pos; i--)
+        {
+            a.employees[i+1] = a.employees[i];
+            a.employees[i]  = obj
+        }
+    }
+
+
+}
+
+
+class Project
+{
+    constructor(p_id, p_name, p_assignTo)
+    {
+        this.p_id = p_id;
+        this.p_name = p_name;
+        this.p_assignTo = p_assignTo;
+    }
+
+    update_proj(p_id=0, p_name, p_assignTo)
+    {
+        
+    }
+}
+
+
+//this function is made for 
+function commit(c)
+{
+    if(c)
+    {
+        fs.writeFile('./myt.json' , JSON.stringify(a), err =>{
+            if(err)
+            {
+                console.log("compnay name not cahnge")
+            }
+            else{
+                console.log("succ")
+            }
+        })
+    }
+    else{
+        console.log("err")
+    }
+}
+
+
+const obj = {
+    "eId": 102,
+            "eName": "Prashil",
+            "eEmail": "prashil.gote@ayssoftwaresolution.com",
+            "eDesignation": "Head Developer",
+            "eSalary": 300000
+}
+
+const e = new Employee()
+e.add_at_pos(obj,3);
+commit(true);
