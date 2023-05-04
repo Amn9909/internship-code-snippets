@@ -1,0 +1,150 @@
+ {
+    "name ": " AYS SOFTWARE SOLUTION ",
+    "email ": "ayssoftwaresolution@gmail.com ",
+    "contact ": "1234567891",
+    "employees": [
+        {
+            "emp_id": "ays101",
+            "emp_name": "Aman Kazi",
+            "department_spacialization": "frontend_dev",
+            "age": 23,
+            "gender": "male",
+            "salery": 1000000
+        },
+        {
+            "emp_id": "ays102",
+            "emp_name": "Vidhi Sharma",
+            "department_spacialization": "devops_dev",
+            "age": 22,
+            "gender": "female",
+            "salery": 100000
+        },
+        {
+            "emp_id": "ays103",
+            "emp_name": "Hrshi Vagga",
+            "department_spacialization": "backend_dev",
+            "age": 21,
+            "gender": "male",
+            "salery": 100000
+        },
+        {
+            "emp_id": "ays104",
+            "emp_name": "Rutuja kale",
+            "department_spacialization": "frontend_dev",
+            "age": 20,
+            "gender": "female",
+            "salery": 100000
+        },
+        {
+            "emp_id": "ays105",
+            "emp_name": "Hrshi Vagga",
+            "department_spacialization": "backend_dev",
+            "age": 21,
+            "gender": "male",
+            "salery": 100000
+        },
+        {
+            "emp_id": "ays106",
+            "emp_name": "Yogesh patel",
+            "department_spacialization": "CEO",
+            "age": 45,
+            "gender": "male",
+            "salery": 100000
+        },
+        {
+            "emp_id": "ays107",
+            "emp_name": " saurav jadhav",
+            "department_spacialization": "backend_dev",
+            "age": 21,
+            "gender": "male",
+            "salery": 100000
+        }
+    ],
+    "rooms": [
+        {
+            "room_no": "r101",
+            "room_name": "waiting_room",
+            "chairs": [
+                {
+                    "chair_id": "r101_ch1",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                },
+                {
+                    "chair_id": "r101_ch2",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                }
+            ]
+        },
+        {
+            "room_no": "r102",
+            "room_name": "HR_room",
+            "chairs": [
+                {
+                    "chair_id": "r102_ch1",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                },
+                {
+                    "chair_id": "r102_ch2",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                }
+            ]
+        },
+        {
+            "room_no": "r103",
+            "room_name": "office_1",
+            "chairs": [
+                {
+                    "chair_id": "r103_ch1",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                },
+                {
+                    "chair_id": "r103_ch2",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                }
+            ]
+        },
+        {
+            "room_no": "r104",
+            "room_name": "office_2",
+            "chairs": [
+                {
+                    "chair_id": "r104_ch1",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                },
+                {
+                    "chair_id": "r104_ch2",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                }
+            ]
+        },
+        {
+            "room_no": "r105",
+            "room_name": "cubicale",
+            "chairs": [
+                {
+                    "chair_id": "r105_ch1",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                },
+                {
+                    "chair_id": "r105_ch2",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                },
+                {
+                    "chair_id": "r105_ch3",
+                    "chair_color ": "black",
+                    "is_defected_?": false
+                }
+            ]
+        }
+    ]
+}

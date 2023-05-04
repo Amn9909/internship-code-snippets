@@ -1,0 +1,218 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#display{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+}
+
+#base{
+    height: 500px;
+    width: 900px;
+    background-color: rgba(252, 255, 228, 0.81);
+    display: flex;
+
+    
+    
+}
+
+#profile_logo{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 20px;
+}
+
+
+#header{
+    height: 50px;
+    width: 300px;
+    background-color: #0a5e48;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#groups_logo{
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+#new_chat_logo{
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+#dot_logo{
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+#header2{
+    height: 50px;
+    width: 600px;
+    background-color: #0a5e48;
+    display: flex;
+    justify-self: right;
+    align-items: center;
+    
+}
+#chat_id{
+    font-size: 12px;
+    color: rgb(212, 212, 212);
+}
+#head2_text{
+    display: flex;
+    margin-left: 10px;
+    justify-content: space-between;
+}
+
+#chats_bar{
+    height: 450px;
+    width: 300px;
+    background-color: rgb(217, 217, 217);
+}
+#serch_bar_chats_sec{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 40   0px;
+    display: flex;
+    justify-content: start;
+    align-items: center     ;
+
+}
+#act_search_bar{
+    background-color: rgb(237, 237, 237);
+    height: 30px;
+    width: 250px;
+    border-radius: 40px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+#seaarch_icon{
+    margin-left: 20px;
+    margin-top: 8px;
+}
+#achive_logo{
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+#chat1, #chat2, #chat3, #chat4, #chat5, #chat6, #chat7, #chat8, #chat9{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(209, 209, 209);
+    border:0.5px solid rgb(165, 154, 140);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#search{
+    border-radius: 20px;
+}
+
+h6 {
+    margin-left: 5px;
+    color: rgb(34, 34, 34);
+}
+
+h4 {
+    margin-left: 5px;
+    color: rgb(34, 34, 34);
+}
+
+#left_section{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(99, 255, 9);
+
+}
+
+#right_section{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#msg_send{
+    height: 50px;
+    width: 600px;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    border: solid 0.5px rgb(229, 247, 229);
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+}
+#attach_file{
+    margin-left:10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 50%;
+
+}
+
+#attach_logo{
+    margin-left:5px;
+    margin-top: 5px ;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 70px;
+
+}
+
+#send_logo{
+    margin-left:7px;
+    margin-top: 7px ;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 70px;
+
+}
+#send_box{
+    height: 30px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border: solid black 0.4px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.myimg{
+    border-radius: 50%;
+}
+
+#notification_dot{
+    height: 10px;
+    width: 10x;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

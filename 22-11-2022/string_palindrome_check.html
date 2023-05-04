@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+
+        let string = prompt("enter a string !"); 
+
+// let string_array = [];
+
+
+// for (let i = 0 ; i < string.length; i++){
+//         if (temp += string[i]){
+//             let str = string.slice(i, i+1);
+//             console.log(string_array.push(str))
+//         }
+// }
+// string_array.push(str)
+// console.log(string_array)
+
+let temp; 
+let arr = [];
+
+const get_string = (string)=>{
+    for(let i = 0; i <string.length; i++){
+        for(let j = i+1 ; j < string.length; j++){
+            if(string[i] == string[j]){
+                temp = string.slice(i , j+1);
+                arr.push(temp) 
+            }else {
+                console.log("not a palidrome string !")
+            }
+        }
+        
+    }
+   
+    console.log(arr);
+}
+
+
+get_string(string);
+
+const if_palindrome =(arr)=>{
+    for (let i =0; i<arr.length; i++){
+        if(arr[i] == arr[i].split("").reverse().join("") ){
+            console.log("its a palindrome i ", arr[i]);
+        } else{
+            console.log("its not a palindrome ! " , arr[i]);
+        }
+    }
+
+}
+
+
+if_palindrome(arr);
+
+    </script>
+    
+</body>
+</html>
